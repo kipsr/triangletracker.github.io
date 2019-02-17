@@ -9,6 +9,10 @@ body{
 .title{
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-display: italic;
+    font-style: italic;
+
     
+}
+.important{
+    font-style: italic;
 }
