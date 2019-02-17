@@ -18,7 +18,7 @@ else if(x===y && y===z){
 else if (x==y || x==z || y==z) {
  alert("Isoceles");
 }
-else {
+else{
  ("Scalene");
 }
 }
