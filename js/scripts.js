@@ -1,21 +1,21 @@
 function measurements(){
 
-    var L1= document.getElementById("La").value;
-    var L2= document.getElementById("Lb").value;
-    var L3= document.getElementById("Lc").value;
+    var a= document.getElementById("La").value;
+    var b= document.getElementById("Lb").value;
+    var c= document.getElementById("Lc").value;
 
-    var a=parseInt(L1);
-    var b=parseInt(L2);
-    var c=parseInt(L3);
+    var x=parseInt(a);
+    var y=parseInt(b);
+    var z=parseInt(c);
 
 
-if (a+b <= c || b+c <= a || a+c <= b){
+if (x+y<= c || x+z <= y || y+z<= x){
  alert("Cannot form a triangle.");
 }
-else if((a===b && b===c){
+else if((x===y && y===z){
  alert("Equilateral");
 }
-else if (a===b || a===c || b===c) {
+else if (x===y || x===z || y===z) {
  alert("Isoceles");
 }
 else {
