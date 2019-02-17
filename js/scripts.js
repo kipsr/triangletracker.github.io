@@ -1,6 +1,7 @@
-var a = parseInt(prompt("Length 1."));
-var b = parseInt(prompt("Length 2."));
-var c = parseInt(prompt("Length 3."));
+function submit(){
+    var a=parseInt(document.getElementById("a").value);
+    var b=parseInt(document.getElementById("b").value);
+    var c=parseInt(document.getElementById("c").value);
 
 if (( a+b <= c) || (b+c <= a) || (a+c <= b)){
  alert("Cannot form a triangle.");
@@ -13,4 +14,5 @@ else if ((a===b) || (a===c) || (b===c)) {
 }
 else {
  alert("scalene");
+}
 }
