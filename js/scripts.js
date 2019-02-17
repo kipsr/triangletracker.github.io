@@ -1,23 +1,24 @@
-function lengths(){
+function measurements(){
 
-    var a=document.getElementById("a").value;
-    var b=document.getElementById("b").value;
-    var c=document.getElementById("c").value;
+    var L1= document.getElementById("La").value;
+    var L2= document.getElementById("Lb").value;
+    var L3= document.getElementById("Lc").value;
 
-    var a=parseInt(a);
-    var b=parseInt(b);
-    var c=parseInt(c);
+    var a=parseInt(L1);
+    var b=parseInt(L2);
+    var c=parseInt(L3);
 
-if (( a+b <= c) || (b+c <= a) || (a+c <= b)){
+
+if (a+b <= c || b+c <= a || a+c <= b){
  alert("Cannot form a triangle.");
 }
-else if((a===b) && (b===c)){
+else if((a===b && b===c){
  alert("Equilateral");
 }
-else if ((a===b) || (a===c) || (b===c)) {
+else if (a===b || a===c || b===c) {
  alert("Isoceles");
 }
 else {
- alert("Scalene");
+ ("Scalene");
 }
 }
