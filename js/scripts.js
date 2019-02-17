@@ -1,8 +1,8 @@
 function measurements(){
 
-    var a= document.getElementById("La").value;
-    var b= document.getElementById("Lb").value;
-    var c= document.getElementById("Lc").value;
+    var a= document.getElementById("A").value;
+    var b= document.getElementById("B").value;
+    var c= document.getElementById("C").value;
 
     var x=parseInt(a);
     var y=parseInt(b);
