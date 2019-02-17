@@ -9,10 +9,10 @@ function measurements(){
     var z=parseInt(c);
 
 
-if (x+y<= c || x+z <= y || y+z<= x){
+if (x+y<= z || x+z <= y || y+z<= x){
  alert("Cannot form a triangle.");
 }
-else if((x===y && y===z){
+else if(x===y && y===z){
  alert("Equilateral");
 }
 else if (x===y || x===z || y===z) {
