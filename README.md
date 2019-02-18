@@ -14,6 +14,14 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 If you'd like to request a new function, feel free to do so by contacting us. Please include sample queries and their corresponding results.
 
+# BDD
+ conditions                   | inputs                                                       | outputs                 |
+|------------------------------|--------------------------------------------------------------|-------------------------|
+| if a triangle is equalateral | all side are equals                                          | equalateral triangle    |
+| if a triangle is isocsles    | two sides are equal                                          | an isocsles triangle    |
+| if a triangle is scalene     | all sides are not equal                                      | its a scalene triangle  |
+| not a triangle               | if the sum of two sides is equal or less than the third side | Not a triangle          |
+
 
 Technologies Used
 HTML and CSS and Javacript
