@@ -4,18 +4,16 @@ function measurements(){
     var b= document.getElementById("B").value;
     var c= document.getElementById("C").value;
 
-    var x=parseInt(a);
-    var y=parseInt(b);
-    var z=parseInt(c);
+    var sides =[a,b,c];
 
 
-if (x+y<=z || x+z<= y || y+z<=x){
+if ( sides[0]+ sides[1]<=sides[2] || sides[0]+sides[2]<= sides[1] || sides[1]+sides[2]<=sides[0]){
  alert("Cannot form a triangle.");
 }
-else if(x===y && y===z){
+else if(sides[0]===sides[1] && sides[1]===sides[2]){
  alert("Equilateral");
 }
-else if (x==y || x==z || y==z) {
+else if (sides[0]==sides[1]|| sides[0]==sides[2] || sides[1]==sides[2]) {
  alert("Isoceles");
 }
 else{
