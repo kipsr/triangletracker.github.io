@@ -1,4 +1,4 @@
-# triangletracker.github.io
+#   Triangletracker.github.io
 An application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
 # Triangle Tracker
 #### This is an application which is used to determone if a traingle is eithertriangle is isosceles, equilateral, scalene or NOT a triangle at all, 17th February 2019
