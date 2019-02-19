@@ -14,7 +14,7 @@ else if(sides[0]===sides[1] && sides[1]===sides[2]){
  alert("Equilateral");
 }
 else if (sides[0]==sides[1]|| sides[0]==sides[2] || sides[1]==sides[2]) {
- alert("Isoceles");
+ alert("Isosceles");
 }
 else{
  ("Scalene");
